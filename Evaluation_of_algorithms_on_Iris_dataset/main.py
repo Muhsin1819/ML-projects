@@ -18,7 +18,6 @@ df = read_csv(url, names=names)
 
 #visualization of the dataset
 #univariate plots
-
 #box and whisker plots
 df.plot(kind="box", subplots=True, layout=(2, 2), sharex=False, sharey=False)
 pyplot.show()
